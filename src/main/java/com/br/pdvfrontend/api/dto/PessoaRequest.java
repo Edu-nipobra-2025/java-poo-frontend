@@ -1,4 +1,4 @@
-package com.br.pdvfrontend.api.pessoa.dto;
+package com.br.pdvfrontend.api.dto;
 
 import com.br.pdvfrontend.enums.TipoPessoa;
 import java.time.LocalDate;
