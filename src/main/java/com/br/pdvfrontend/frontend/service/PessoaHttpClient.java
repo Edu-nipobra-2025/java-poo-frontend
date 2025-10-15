@@ -1,7 +1,7 @@
 package com.br.pdvfrontend.frontend.service;
 
-import com.br.pdvfrontend.api.dto.PessoaRequest;
-import com.br.pdvfrontend.api.dto.PessoaResponse;
+import com.br.pdvfrontend.api.pessoa.dto.PessoaRequest;
+import com.br.pdvfrontend.api.pessoa.dto.PessoaResponse;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;

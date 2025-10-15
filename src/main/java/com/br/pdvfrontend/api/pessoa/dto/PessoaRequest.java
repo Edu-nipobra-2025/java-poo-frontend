@@ -1,6 +1,6 @@
 package com.br.pdvfrontend.api.pessoa.dto;
 
-import com.br.pdvpostocombustivel.enums.TipoPessoa;
+import com.br.pdvfrontend.enums.TipoPessoa;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;

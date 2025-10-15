@@ -16,7 +16,6 @@
 
     <properties>
         <java.version>17</java.version>
-        <!-- CORRIGIDO: Propriedade para forçar o encoding UTF-8 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>17</maven.compiler.release>
     </properties>
@@ -40,6 +39,17 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-json</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-commons</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>jakarta.persistence</groupId>
             <artifactId>jakarta.persistence-api</artifactId>
@@ -76,8 +86,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <!-- CORREÇÃO PENDENTE: Verifique se este mainClass está correto no seu projeto.
-                         Se a classe principal estiver em com.br.pdvfrontend, remova o .frontend do final. -->
                     <mainClass>com.br.pdvfrontend.PdvFrontendApplication</mainClass>
                     <excludes>
                         <exclude>
